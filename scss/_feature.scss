@@ -1,0 +1,42 @@
+.feature {
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  &__row {
+    &-card {
+      overflow: hidden;
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    &-img {
+      width: 100%;
+      display: block;
+      transition: transform 0.7s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    &-title {
+      font-size: 17px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all .50s ease;
+
+      &:hover {
+        color: var(--main-color);
+      }
+    }
+  }
+}

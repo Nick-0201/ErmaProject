@@ -15,7 +15,12 @@
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: var(--main-color);
+    color: #fff;
+
+    &>span {
+      color: var(--main-color);
+    }
+
   }
 
   &__title {

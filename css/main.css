@@ -118,6 +118,9 @@ footer {
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 6px;
+  color: #fff;
+}
+.home__subtitle > span {
   color: var(--main-color);
 }
 .home__title {

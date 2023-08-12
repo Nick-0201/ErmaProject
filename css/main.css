@@ -346,17 +346,49 @@ footer {
   color: var(--text-color);
 }
 
-.feature {
+.shop {
   background-size: cover;
   background-position: bottom center;
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/pg-img/KOLORO_1649097090643.jpg);
 }
-
 .shop__title {
   text-align: center;
   margin: 100px 0;
+}
+.shop-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+}
+.shop__row-card {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.shop__row-img {
+  width: 100%;
+  display: block;
+  transition: transform 0.7s;
+}
+.shop__row-img:hover {
+  transform: scale(1.2);
+}
+.shop__row-title {
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.shop__row-title:hover {
+  color: var(--main-color);
 }
 
 .btn {

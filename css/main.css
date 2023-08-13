@@ -25,7 +25,7 @@ body {
 }
 
 section {
-  padding: 27px 17% 60px;
+  padding: 27px 10% 60px;
 }
 
 footer {
@@ -39,14 +39,14 @@ footer {
   z-index: 1000;
   width: 100%;
   background: transparent;
-  padding: 27px 17%;
+  padding: 27px 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   transition: all 0.5s ease;
 }
 .header.sticky {
-  padding: 8px 17%;
+  padding: 8px 10%;
   background: transparent;
   backdrop-filter: blur(35px);
 }
@@ -356,6 +356,8 @@ footer {
 .shop__title {
   text-align: center;
   margin: 100px 0;
+  color: var(--main-color);
+  font-size: 3rem;
 }
 .shop-content {
   display: grid;

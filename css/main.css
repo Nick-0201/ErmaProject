@@ -7,7 +7,7 @@
   bottom: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: "Open Sans", sans-serif;
+  font-family: "guerrillanormal";
 }
 
 :root {
@@ -32,6 +32,12 @@ footer {
   padding: 27px 17% 60px;
 }
 
+@font-face {
+  font-family: "guerrillanormal";
+  src: url(../Fonts/guerrilla-normal-webfont.woff2) format("woff2"), url(../Fonts/guerrilla-normal-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .header {
   position: fixed;
   top: 0;
@@ -54,9 +60,11 @@ footer {
   font-size: 33px;
   color: var(--text-color);
   font-weight: 700;
+  font-family: "guerrillanormal";
 }
 .header__logo span {
   color: var(--main-color);
+  font-family: "guerrillanormal";
 }
 .header__menu {
   display: flex;
@@ -128,6 +136,7 @@ footer {
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 20px;
+  font-family: "guerrillanormal";
 }
 .home__subtext {
   font-size: 20px;

@@ -7,7 +7,8 @@
   bottom: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'guerrillanormal';
+  // font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -19,6 +20,7 @@
   --h2-font: 3rem;
   --p-font: 1rem;
 }
+
 
 body {
   color: var(--text-color);
@@ -33,6 +35,7 @@ footer {
   padding: 27px 17% 60px;
 }
 
+@import "./fonts";
 @import "./header";
 @import "./home";
 @import "./feature";

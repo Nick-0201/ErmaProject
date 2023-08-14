@@ -34,3 +34,18 @@
     margin-bottom: 35px;
   }
 }
+
+// ________ Media ________
+@media (max-width:1050px) {
+  .culture {
+    gap: 3rem;
+  }
+}
+
+@media (max-width:800px) {
+  .culture {
+    grid-template-columns: 1fr;
+  }
+}
+
+// ________________ ________________ ________________

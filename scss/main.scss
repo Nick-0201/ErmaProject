@@ -16,7 +16,7 @@
   --bg-color: #000;
   --main-color: #ffa343;
 
-  --h1-font: 2.5rem;
+  --h1-font: 4.5rem;
   --h2-font: 3rem;
   --p-font: 1rem;
 }
@@ -31,6 +31,40 @@ section {
   padding: 27px 10% 60px;
 }
 
+// ________ Media section ________
+
+@media (max-width:1700px) {
+  section {
+    padding: 27px 10% 60px;
+  }
+}
+
+@media (max-width:1200px) {
+  section {
+    padding: 45px 5% 35px;
+  }
+
+  :root {
+    --h1-font: 3.6rem;
+    --h2-font: 2.8rem;
+    --p-font: 15px;
+  }
+}
+
+@media (max-width:600px) {
+  :root {
+    --h1-font: 3.5rem;
+    --h2-font: 2.1rem;
+  }
+}
+
+@media (max-width:450px) {
+  section {
+    padding: 60px 3% 50px;
+  }
+}
+
+// ________________________________
 footer {
   padding: 27px 17% 60px;
 }

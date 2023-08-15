@@ -186,7 +186,7 @@ footer {
     display: block;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 450px) {
   .header {
     padding: 12px 3%;
   }
@@ -252,6 +252,11 @@ footer {
 @media (max-width: 1200px) {
   .home {
     height: 90vh;
+  }
+}
+@media (max-width: 600px) {
+  .home {
+    height: 85vh;
   }
 }
 .feature-content {
